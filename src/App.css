@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Abel&display=swap");
+
+body {
+  background-color: #d3d3d3;
+}
+/* .string-container {
+  position: absolute;
+  top: 20%;
+  align-items: center;
+}
+.string-container li {
+  list-style: none;
+  display: inline-block;
+  background: black;
+  margin-left: 40px;
+} */
+
+.play-button {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  position: relative;
+}
+.note-list {
+  background: blue;
+  padding: 10px 10px 10px 10px;
+  display: inline;
+}
+.note-container {
+  margin: 10%;
+  position: relative;
+  background: black;
+}
+.container {
+  border: 1px solid blue;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+}
