@@ -101,7 +101,7 @@ class Note():
             print("Error, no such category exists!")
 
 
-
+#Main loop
 user = input("Login (enter username (non case-sensitive): ")#standarding beginning login prompt
 user = user.lower()
 newNote = Note(user)#creates user instance
