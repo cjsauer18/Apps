@@ -14,8 +14,8 @@ class Note():
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd="123password",
-            database="testdb"
+            passwd="123password",#arbitrary database name and password
+            database="testdb"#arbitrary database
         )
         self.mydb = mydb#database connection
         self.cursor = mydb.cursor()#cursor class instance
