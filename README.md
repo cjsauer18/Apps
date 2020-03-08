@@ -8,8 +8,7 @@ GuitarTuner
   
 
 Post-it Note
-  - Using a mySQL database and mysqldb connector for python 3.8, the post-it note program establishes a connection to a local database, and prompts a user to enter username to log into account. Program lets users add notes characterized by category into a database and displays the users notes onto 
-  console. User can delete notes based on catagory. User can also delete account, which erases correpsonding table in local database.
+  - Using a mySQL database and mysqldb connector for python 3.8, the post-it note program establishes a connection to a local database, and prompts a user to enter username to log into account. Program lets users add notes characterized by category into a database and displays the users notes onto console. User can delete notes based on catagory. User can also delete account, which erases correpsonding table in local database. User's data is encapsulated by personal table created for username within SQL database.
   
 Key concepts:
   - Object oriented encapsulation
@@ -20,6 +19,7 @@ Key concepts:
   - Control handling with user-console interface. 
   
 Possible edits: 
+  - Implement username-password account security features
   - Implement GUI
   - Add password protection functionality. 
   - Adjust flexibility for post it note selection and deletion options
