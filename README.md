@@ -1,4 +1,4 @@
-This repository consists of various personal side projects.
+This repository consists of various (complete and incomplete) personal side projects.
 
 Descriptions
 
