@@ -10,7 +10,7 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0"
   },
-  "homepage": "https://cjsauer18.github.io/personal-project-repos",
+  "homepage": "https://cjsauer18.github.io/personal-project-repos/TunerApp",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
