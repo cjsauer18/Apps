@@ -1,0 +1,136 @@
+{
+  "sounds": [
+    {
+      "id": 1,
+      "string": "6",
+      "standard": { "sound": "./assets/sounds/E3.mp3", "name": "E3" },
+      "note": [
+        { "sound": "./assets/sounds/A2.mp3", "name": "A2" },
+        { "sound": "./assets/sounds/A2s.mp3", "name": "A2#" },
+        { "sound": "./assets/sounds/B2.mp3", "name": "B2" },
+        { "sound": "./assets/sounds/C3.mp3", "name": "C3" },
+        { "sound": "./assets/sounds/C3s.mp3", "name": "C3#" },
+        { "sound": "./assets/sounds/D3.mp3", "name": "D3" },
+        { "sound": "./assets/sounds/D3s.mp3", "name": "D3#" },
+        { "sound": "./assets/sounds/E3.mp3", "name": "E3" },
+        { "sound": "./assets/sounds/F3.mp3", "name": "F3" },
+        { "sound": "./assets/sounds/F3s.mp3", "name": "F3#" },
+        { "sound": "./assets/sounds/G3.mp3", "name": "G3" },
+        { "sound": "./assets/sounds/G3s.mp3", "name": "G3#" },
+        { "sound": "./assets/sounds/A3.mp3", "name": "A3" },
+        { "sound": "./assets/sounds/A3s.mp3", "name": "A3#" },
+        { "sound": "./assets/sounds/B3.mp3", "name": "B3" }
+      ]
+    },
+    {
+      "id": 2,
+      "string": "5",
+      "standard": { "sound": "./assets/sounds/A3.mp3", "name": "A3" },
+      "note": [
+        { "sound": "./assets/sounds/D3.mp3", "name": "D3" },
+        { "sound": "./assets/sounds/D3s.mp3", "name": "D3#" },
+        { "sound": "./assets/sounds/E3.mp3", "name": "E3" },
+        { "sound": "./assets/sounds/F3.mp3", "name": "F3" },
+        { "sound": "./assets/sounds/F3s.mp3", "name": "F3#" },
+        { "sound": "./assets/sounds/G3.mp3", "name": "G3" },
+        { "sound": "./assets/sounds/G3s.mp3", "name": "G3#" },
+        { "sound": "./assets/sounds/A3.mp3", "name": "A3" },
+        { "sound": "./assets/sounds/A3s.mp3", "name": "A3#" },
+        { "sound": "./assets/sounds/B3.mp3", "name": "B3" },
+        { "sound": "./assets/sounds/C4.mp3", "name": "C4" },
+        { "sound": "./assets/sounds/C4s.mp3", "name": "C4#" },
+        { "sound": "./assets/sounds/D4.mp3", "name": "D4" },
+        { "sound": "./assets/sounds/D4s.mp3", "name": "D4#" },
+        { "sound": "./assets/sounds/E4.mp3", "name": "E4" }
+      ]
+    },
+    {
+      "id": 3,
+      "string": "4",
+      "standard": { "sound": "./assets/sounds/D4.mp3", "name": "D4" },
+      "note": [
+        { "sound": "./assets/sounds/G3.mp3", "name": "G3" },
+        { "sound": "./assets/sounds/G3s.mp3", "name": "G3#" },
+        { "sound": "./assets/sounds/A3.mp3", "name": "A3" },
+        { "sound": "./assets/sounds/A3s.mp3", "name": "A3#" },
+        { "sound": "./assets/sounds/B3.mp3", "name": "B3" },
+        { "sound": "./assets/sounds/C4.mp3", "name": "C4" },
+        { "sound": "./assets/sounds/C4s.mp3", "name": "C4#" },
+        { "sound": "./assets/sounds/D4.mp3", "name": "D4" },
+        { "sound": "./assets/sounds/D4s.mp3", "name": "D4#" },
+        { "sound": "./assets/sounds/E4.mp3", "name": "E4" },
+        { "sound": "./assets/sounds/F4.mp3", "name": "F4" },
+        { "sound": "./assets/sounds/F4s.mp3", "name": "F4#" },
+        { "sound": "./assets/sounds/G4.mp3", "name": "G4" },
+        { "sound": "./assets/sounds/G4s.mp3", "name": "G4#" },
+        { "sound": "./assets/sounds/A4.mp3", "name": "A4" }
+      ]
+    },
+    {
+      "id": 4,
+      "string": "3",
+      "standard": { "sound": "./assets/sounds/G4.mp3", "name": "G4" },
+      "note": [
+        { "sound": "./assets/sounds/C4.mp3", "name": "C4" },
+        { "sound": "./assets/sounds/C4s.mp3", "name": "C4#" },
+        { "sound": "./assets/sounds/D4.mp3", "name": "D4" },
+        { "sound": "./assets/sounds/D4s.mp3", "name": "D4#" },
+        { "sound": "./assets/sounds/E4.mp3", "name": "E4" },
+        { "sound": "./assets/sounds/F4.mp3", "name": "F4" },
+        { "sound": "./assets/sounds/F4s.mp3", "name": "F4#" },
+        { "sound": "./assets/sounds/G4.mp3", "name": "G4" },
+        { "sound": "./assets/sounds/G4s.mp3", "name": "G4#" },
+        { "sound": "./assets/sounds/A4.mp3", "name": "A4" },
+        { "sound": "./assets/sounds/A4s.mp3", "name": "A4#" },
+        { "sound": "./assets/sounds/B4.mp3", "name": "B4" },
+        { "sound": "./assets/sounds/C5.mp3", "name": "C5" },
+        { "sound": "./assets/sounds/C5s.mp3", "name": "C5#" },
+        { "sound": "./assets/sounds/D5.mp3", "name": "D5" }
+      ]
+    },
+    {
+      "id": 5,
+      "string": "2",
+      "standard": { "sound": "./assets/sounds/B4.mp3", "name": "B4" },
+      "note": [
+        { "sound": "./assets/sounds/E4.mp3", "name": "E4" },
+        { "sound": "./assets/sounds/F4.mp3", "name": "F4" },
+        { "sound": "./assets/sounds/F4s.mp3", "name": "F4#" },
+        { "sound": "./assets/sounds/G4.mp3", "name": "G4" },
+        { "sound": "./assets/sounds/G4s.mp3", "name": "G4#" },
+        { "sound": "./assets/sounds/A4.mp3", "name": "A4" },
+        { "sound": "./assets/sounds/A4s.mp3", "name": "A4#" },
+        { "sound": "./assets/sounds/B4.mp3", "name": "B4" },
+        { "sound": "./assets/sounds/C5.mp3", "name": "C5" },
+        { "sound": "./assets/sounds/C5s.mp3", "name": "C5#" },
+        { "sound": "./assets/sounds/D5.mp3", "name": "D5" },
+        { "sound": "./assets/sounds/D5s.mp3", "name": "D5#" },
+        { "sound": "./assets/sounds/E5.mp3", "name": "E5" },
+        { "sound": "./assets/sounds/F5.mp3", "name": "F5" },
+        { "sound": "./assets/sounds/F5s.mp3", "name": "F5#" }
+      ]
+    },
+    {
+      "id": 6,
+      "string": "1",
+      "standard": { "sound": "./assets/sounds/E5.mp3", "name": "E5" },
+      "note": [
+        { "sound": "./assets/sounds/A4.mp3", "name": "A4" },
+        { "sound": "./assets/sounds/A4s.mp3", "name": "A4#" },
+        { "sound": "./assets/sounds/B4.mp3", "name": "B4" },
+        { "sound": "./assets/sounds/C5.mp3", "name": "C5" },
+        { "sound": "./assets/sounds/C5s.mp3", "name": "C5#" },
+        { "sound": "./assets/sounds/D5.mp3", "name": "D5" },
+        { "sound": "./assets/sounds/D5s.mp3", "name": "D5#" },
+        { "sound": "./assets/sounds/E5.mp3", "name": "E5" },
+        { "sound": "./assets/sounds/F5.mp3", "name": "F5" },
+        { "sound": "./assets/sounds/F5s.mp3", "name": "F5#" },
+        { "sound": "./assets/sounds/G5.mp3", "name": "G5" },
+        { "sound": "./assets/sounds/G5s.mp3", "name": "G5s" },
+        { "sound": "./assets/sounds/A5.mp3", "name": "A5" },
+        { "sound": "./assets/sounds/A5s.mp3", "name": "A5s" },
+        { "sound": "./assets/sounds/B5.mp3", "name": "B5" }
+      ]
+    }
+  ]
+}

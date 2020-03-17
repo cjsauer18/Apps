@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Abel&display=swap");
+
+body {
+  background: linear-gradient(rgb(49, 50, 61), #37393f);
+  margin: 0;
+  height: 900px;
+  width: auto;
+}
+* {
+  font-family: "Abel", sans-serif;
+}
+.play-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  position: relative;
+  border-color: white;
+  border-width: 2px;
+  background-color: #55cbe4;
+}
+.play-btn:focus {
+  border-color: white;
+  background-color: #b9e878 !important;
+}
+.play-btn:hover {
+  background-color: #61e3fd;
+}
+.note-container {
+  border: 1px solid #f49e70;
+  margin: 50px;
+  width: 1100px;
+  padding: 20px 0px 0px 0px;
+  position: relative;
+  top: 60px;
+  left: 8%;
+  right: 8%;
+  border-radius: 65px;
+  background: #1f2430;
+}
+.container {
+  display: flex;
+  padding: 0px 0px 0px 10px;
+}
+.list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  transition: all 0.2s ease 0s;
+}
+.list:hover {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 12px;
+  border-radius: 1px;
+  border-bottom: 3px solid #f49e70;
+  transition: all 0.05s ease 0s;
+}
+.list button {
+  background-color: rgb(133, 133, 133);
+  font-weight: bold;
+  color: rgb(0, 0, 0) !important;
+  text-transform: uppercase;
+  width: 60px;
+  height: 40px;
+  border: 1px solid black !important;
+  border-radius: 5px;
+  margin-left: 3px;
+  display: inline-block;
+  transition: all 0.2s ease 0s;
+}
+.list button:hover {
+  color: white !important;
+  margin-top: 3px;
+  border-radius: 1px;
+  border-color: #f49e70 !important;
+  transition: all 0.2s ease 0s;
+  background-color: rgb(109, 109, 109);
+  width: 70px;
+  height: 50px;
+}
+
+.list button:focus {
+  transition: all 0.2s ease 0s;
+  background-color: #b9e878;
+  width: 70px;
+  height: 50px;
+}
+
+.string-label {
+  color: white;
+  position: relative;
+  top: -11px;
+  right: 50px;
+}
+
+.scale-bar ul {
+  display: inline-flex;
+
+  position: absolute;
+  top: -80px;
+  left: 70px;
+  list-style: none;
+}
+.scale-bar li {
+  border-radius: 30px;
+  padding: 0px 22px 0px 22px;
+  font-size: 24px;
+  color: white;
+  transition: all 0.2s ease 0s;
+}
+.scale-bar li:hover {
+  transition: all 0.2s ease 0s;
+  background: rgb(44, 44, 56);
+}
+.scale-left {
+  margin-left: 6px;
+}
+.top-bar {
+  position: relative;
+  top: -30px;
+  height: 60px;
+  background-color: rgb(42, 44, 59);
+  color: rgb(175, 175, 175);
+  width: 100%;
+}
+.top-bar h1 {
+  transition: all 0.2s ease 0s;
+  position: relative;
+  left: 75px;
+  font-size: 48px;
+  width: 250px;
+}
+.top-bar h1:hover {
+  transition: all 0.2s ease 0s;
+  color: rgb(202, 202, 202);
+}
+.stop-btn {
+  position: relative;
+  right: 15px;
+  top: 18px;
+  background: rgba(255, 0, 0, 0.63);
+  height: 25px;
+  width: 25px;
+  border-radius: 15px;
+  transition: all 0.1s ease 0s;
+}
+.stop-btn:hover {
+  background: rgba(255, 0, 0, 0.781);
+  transition: all 0.1s ease 0s;
+}
+.stop-btn:active {
+  background: red;
+}
+.footer {
+  position: relative;
+  bottom: -200px;
+  height: 60px;
+  background-color: rgb(42, 44, 59);
+  color: rgb(175, 175, 175);
+}
+.string-label:hover {
+  transition: all 0.2s ease 0s;
+  color: rgb(174, 174, 185);
+}
