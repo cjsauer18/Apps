@@ -1,0 +1,76 @@
+#!/usr/bin/env python
+import bs4
+from bs4 import BeautifulSoup as soup
+from urllib.request import urlopen as uReq
+#search url
+url = 'https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html'
+uClient = uReq(url)
+pageHTML = uClient.read()
+uClient.close()
+pageSoup = soup(pageHTML, "html.parser")
+counties = []
+container = pageSoup.findAll("div", {"class": "fullContent"})
+contain = container[0].table
+table = contain.tbody.findAll('td')
+
+def extract():
+    #iterate through county data in table
+    for i in range(3, 83*3-39,3):
+        table = contain.tbody.findAll('td')
+        county = "".join(table[i].text.split())
+        cases = "".join(table[i+1].text.split())
+        deaths = "".join(table[i+2].text.split())
+        if cases == '':
+            cases = 0
+        if deaths == '':
+            deaths = 0
+        temp = (county.lower(), int(cases), int(deaths))#format in tuple
+        counties.append(temp)
+extract()
+print("---------------------------------------------------------------")
+print("Enter county name for COVID-19 report, enter 'exit' to finish")
+print("To print all counties, enter 'print all'")
+print("---------------------------------------------------------------\n")
+while True:
+    county = input('Enter county: ')#query prospective data
+    county = county.lower()
+    if(county != 'exit'):
+        for i in counties:
+            if county == "print all":
+                print(i[0].capitalize(), "County: ")
+                print("Cases:", i[1])
+                print("Fatalities:", i[2])
+                print("---------------------")
+            elif i[0] == county:
+                print(county.capitalize(), "County: ")
+                print("Cases:", i[1])
+                print("Fatalities:", i[2])
+                print("---------------------")
+    else:
+        break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
