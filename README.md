@@ -3,7 +3,8 @@ This repository consists of various (complete and incomplete) personal side proj
 Descriptions
 
 Sorting Visualizer
-  - See the step by step iterations of four sorting algorithms over a array of variable size
+  - See the step by step iterations of four sorting algorithms over a array of variable size.
+  Link to Use:
   https://cjsauer18.github.io/showcase/
   
 GuitarTuner
