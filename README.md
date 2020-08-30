@@ -4,6 +4,7 @@ Descriptions
 
 Sorting Visualizer
   - See the step by step iterations of four sorting algorithms over a array of variable size
+  https://cjsauer18.github.io/showcase/
   
 GuitarTuner
   - Application displays individual notes per guitar string, that allow tuning to be done with the ability to have interchangeable notes.
