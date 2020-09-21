@@ -3,7 +3,7 @@ This repository consists of various personal side projects.
 Descriptions
 
 Sorting Visualizer - ReactJS/CSS/HTML
-  - See the step by step iterations of four sorting algorithms over a array of variable size.  
+  - See the step by step iterations of four sorting algorithms over a array of variable size. (Dont use bubble sort on a massive array, obviously) 
   Link to Use:
   https://cjsauer18.github.io/showcase/
  
