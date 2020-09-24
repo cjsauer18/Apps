@@ -8,7 +8,7 @@ Sorting Visualizer - ReactJS/CSS/HTML
   https://cjsauer18.github.io/showcase/
  
 Sudoku Solver - Python
-- Program optimizes a brute force sudoku solving algorithm. Program takes in a formatted puzzle in a file. The program produces a file with a solution, as
+- Program optimizes a brute force sudoku solving algorithm. A formatted file is inputted, and the algorithm produces a file with a solution, as
 well as several metrics pertaining to the backtracking efficiency of the algorithm for that specific puzzle. Program is modularized into two components, with room for a creator program to be implemented with use of the core file. 
 
 GuitarTuner - ReactJS/CSS/HTML
