@@ -15,7 +15,8 @@ GuitarTuner - ReactJS/CSS/HTML
   - Application displays individual notes per guitar string that allow for tuning with the ability to have interchangeable notes.
 
 Tracker - Python
-  - Web scraping algorithm that takes COVID-19 data from Michigan.gov and displays case report per county based on user input.
+  - Web scraping algorithm that takes COVID-19 data from Michigan.gov and displays case report per county based on user input. 
+  - Made this in April and the site that was referenced has since changed. The table that I used was changed to a full blown interactive application.
 
 Post-it Note - Python/mySQL
   - Using a mySQL database and mysqldb connector for python, the note taking program establishes a connection to a local database, and prompts a user to enter username to log into account. Program lets users add notes characterized by category into a database and displays the users notes onto console. User can delete notes based on catagory. User can also delete account, which erases correpsonding table in local database. User's data is encapsulated by personal table created for username within SQL database. 
