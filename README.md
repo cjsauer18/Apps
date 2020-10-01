@@ -12,7 +12,9 @@ Sudoku Solver - Python
 well as several metrics pertaining to the algorithm's backtracking efficiency for the specific puzzle. Program is modularized into two components with room for a creator program to be implemented with use of the core file. 
 
 GuitarTuner - ReactJS/CSS/HTML
-  - Application displays individual notes per guitar string that allow for tuning with the ability to have interchangeable notes.
+  - I couldn't find a decent guitar tuner online that let me change specific strings indvidually without having to nagivate specific preset tunings. This made tuning my guitar for a song that had some funky tuning that is not that common quite difficult. Of course.. I could just have just gone to guitar center and get a tuner - but I just did not do that:
+  - This application displays individual notes per guitar string which allows for tuning with the ability to have interchangeable notes.
+  - Pulled note sounds from guitar tuner database (GTDB.org)
 
 Tracker - Python
   - Web scraping algorithm that takes COVID-19 data from Michigan.gov and displays case report per county based on user input. 
