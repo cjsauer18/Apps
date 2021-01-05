@@ -12,6 +12,8 @@ Sudoku Solver - Python
 well as several metrics pertaining to the algorithm's backtracking efficiency for the specific puzzle. Program is modularized into two components with room for a creator program to be implemented with use of the core file. 
 
 GuitarTuner - ReactJS/CSS/HTML
+- Link to use:
+- https://cjsauer18.github.io/showcase2/
 - I couldn't find a decent guitar tuner online that let me change specific strings indvidually without having to use specific preset tunings. This made tuning my guitar for a song that had some funky tuning that is not that common quite difficult. Of course.. I could just have just gone to guitar center and get a tuner - but I just never made that happen:
   - This application displays individual notes per guitar string which allows for tuning with the ability to have interchangeable notes.
   - Pulled note sounds from guitar tuner database (GTDB.org)
